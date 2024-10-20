@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <section id="header">
+    <a href="#"><img src="img/logo.png" alt="main_logo"></a>
+    <div class="headerSearch">
+      <div class="row">
+      <input type="text" id="inputbox" placeholder="Search Your Product" style="padding: 10px; border-radius: 10px; border:none;">
+
+      <!-- <a href="searchdetails.html"> -->
+        <button onclick= search() class="searchbtn" id="searchbtn"><i class="fa-solid fa-magnifying-glass fa-xs"></i></button> 
+      <!-- </a> -->
+    </div>
+    <div class="resultbox" id="resultboxId">
+      
+    </div>
+    </div>
+    <div>
+      <ul id="navbar">
+        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="#product">PRODUCT</a></li>
+        <li><a href="index.html">LOGIN</a></li>
+        <li id="lg-cart"><a href="#"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #38363a;"></i></a></li>
+        
+        
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="#"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #38363a;"></i></a>
+      <i id="bar" class="fas fa-outdent"></i>
+      
+    </div>
+  </section>
+<!-- Hero Section -->
+<section id="hero">
+  <h4>Trade-in-offer</h4>
+  <h2>Super Value Deals</h2>
+  <h1>On all products</h1>
+  <p>Save more with coupons and upto 70% off!</p>
+  <button>Shop Now</button>
+</section>
+<!-- Product Section -->
+<section id="product" class="section-p1">
+  <h2>Products</h2>
+  <div class="pro-container" id="pro-container">
+    
+
+  </div>
+</section>
+<!------------------------ Footer Section------------------------- -->
+<footer id="footer">
+  &#169 All Copy Rights Reserved
+</footer>
+
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
